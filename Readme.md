@@ -3,8 +3,8 @@
 This repository contains the simple voting system built on Python. This project has Graphical User Interface(GUI) and implementation of databases.
 
 ##  Our Team
-- [Venera](https://github.com/vhenewer) (vhenewer): 🎨 Design and GUI.
-- [Nursezim](https://github.com/NursezimAlieva) (NursezimAlieva): 🧠 Code and logic.
+- [Venera](https://github.com/vhenewer) (vhenewer):  Design and GUI.
+- [Nursezim](https://github.com/NursezimAlieva) (NursezimAlieva):  Code and logic.
 
 ## Structure
 
@@ -249,9 +249,6 @@ The `Controller` class connects the GUI with the application logic. It manages u
 ### Notes
 - The `Controller` class integrates with PyQt6 for GUI management.
 - It uses DAO classes for database operations and the `Model` class for business logic.
-
-### UML Diagram
-![uml.png](icons/uml.png)
 
 ## Database Reports
 
