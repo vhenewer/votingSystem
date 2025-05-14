@@ -2,11 +2,11 @@
 
 This repository contains the simple voting system built on Python. This project has Graphical User Interface(GUI) and implementation of databases.
 
-## 👥 Our Team
-- [Nursezim](https://github.com/NursezimAlieva) (NursezimAlieva): 🎨 Design and GUI.
-- [Venera](https://github.com/vhenewer) (vhenewer): 🧠 Code and logic.
+##  Our Team
+- [Venera](https://github.com/vhenewer) (vhenewer): 🎨 Design and GUI.
+- [Nursezim](https://github.com/NursezimAlieva) (NursezimAlieva): 🧠 Code and logic.
 
-## 📂 Structure
+## Structure
 
 - [user.py](/project/classes/user.py) : Contains the class that creates `User` instances.
 - [votes.py](/project/classes/votes.py) : Contains the class that creates `Votes` instances.
@@ -26,11 +26,11 @@ This repository contains the simple voting system built on Python. This project 
 - [vote.py](/project/pyqt/vote.py) : File that contains the design of vote page.
 
 
-# 📂 Classes Directory
+# Classes Directory
 
 The `classes` directory contains the core classes used in the project. These classes define the main entities and their attributes, along with methods to interact with them.
 
-## 🧑‍💻 User Class
+## User Class
 The `User` class represents a user in the system. It includes attributes for user details and provides getter and setter methods for each attribute.
 
 ### Attributes
@@ -52,7 +52,7 @@ The `User` class represents a user in the system. It includes attributes for use
 
 ---
 
-## 🗳️ Votes Class
+## Votes Class
 The `Votes` class represents a vote in the system. It includes attributes for the user, election, and candidate involved in the vote.
 
 ### Attributes
@@ -70,7 +70,7 @@ The `Votes` class represents a vote in the system. It includes attributes for th
 
 ---
 
-## 🗳️ Candidate Class
+## Candidate Class
 The `Candidate` class represents a candidate in an election. It includes attributes for the candidate's details.
 
 ### Attributes
@@ -91,7 +91,7 @@ The `Candidate` class represents a candidate in an election. It includes attribu
 
 ---
 
-## 🗳️ Election Class
+## Election Class
 The `Election` class represents an election in the system. It includes attributes for the election's details.
 
 ### Attributes
@@ -108,13 +108,13 @@ The `Election` class represents an election in the system. It includes attribute
 - `set_end_date(end_date: str)`: Sets the end date.
 - `__str__()`: Returns a formatted string representation of the election.
 
-## 🗄️ DAO Classes
+## DAO Classes
 
 The DAO (Data Access Object) classes are responsible for interacting with the database. They provide methods for CRUD (Create, Read, Update, Delete) operations and abstract the database logic from the rest of the application.
 
 ---
 
-### 🛠️ BaseDao Class
+### BaseDao Class
 The `BaseDao` class serves as the foundation for all DAO classes. It provides common methods for executing queries and managing database connections.
 
 #### Attributes
@@ -128,7 +128,7 @@ The `BaseDao` class serves as the foundation for all DAO classes. It provides co
 
 ---
 
-### 👤 UserDao Class
+### UserDao Class
 The `UserDao` class handles operations related to the `Users` table in the database. It inherits from `BaseDao`.
 
 #### Methods
@@ -140,7 +140,7 @@ The `UserDao` class handles operations related to the `Users` table in the datab
 
 ---
 
-### 🗳️ VotesDao Class
+### VotesDao Class
 The `VotesDao` class manages operations related to the `Votes` table. It inherits from `BaseDao`.
 
 #### Methods
@@ -150,7 +150,7 @@ The `VotesDao` class manages operations related to the `Votes` table. It inherit
 
 ---
 
-### 🗳️ CandidateDao Class
+### CandidateDao Class
 The `CandidateDao` class handles operations related to the `Candidates` table. It inherits from `BaseDao`.
 
 #### Methods
@@ -161,7 +161,7 @@ The `CandidateDao` class handles operations related to the `Candidates` table. I
 
 ---
 
-### 🗳️ ElectionDao Class
+### ElectionDao Class
 The `ElectionDao` class manages operations related to the `Elections` table. It inherits from `BaseDao`.
 
 #### Methods
@@ -171,7 +171,7 @@ The `ElectionDao` class manages operations related to the `Elections` table. It 
 - `update_election_dates(election_name: str, start_date: str, end_date: str)`: Updates the start and end dates of an election.
 - `delete_election(election_name: str)`: Deletes an election by its name.
 
-## 🧠 Model Class
+## Model Class
 
 The `Model` class contains the core logic of the application. It handles user account creation, password validation, email validation, and sending password reset codes.
 
@@ -199,7 +199,7 @@ The `Model` class contains the core logic of the application. It handles user ac
 
 ---
 
-## 🔗 Controller Class
+## Controller Class
 
 The `Controller` class connects the GUI with the application logic. It manages user interactions, updates the UI, and communicates with the `Model` and DAO classes.
 
@@ -250,13 +250,13 @@ The `Controller` class connects the GUI with the application logic. It manages u
 - The `Controller` class integrates with PyQt6 for GUI management.
 - It uses DAO classes for database operations and the `Model` class for business logic.
 
-### 🖼️ UML Diagram
+### UML Diagram
 ![uml.png](icons/uml.png)
 
-## 📊 Database Reports
+## Database Reports
 
 
-## ⚙️ Installation and Usage
+## Installation and Usage
 1. Clone the repository:
     ```bash
     git clone https://github.com/argenkuz/Shopping-system.git
