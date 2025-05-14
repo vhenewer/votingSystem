@@ -1,4 +1,4 @@
-#  Simple GUI Voting System
+#  Voting System Project
 
 This repository contains the simple voting system built on Python. This project has Graphical User Interface(GUI) and implementation of databases.
 
